@@ -1,0 +1,185 @@
+.jobcreation-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+}
+.jobcreation-container .container-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobcreation-container .top-text{
+    display: flex;
+    align-items: center;
+}
+.top-text img{
+    width: 40px;
+    height: 30px;
+}
+.jobcreation-container .container-bottom{
+    width: 98%;
+    border: 1px solid #F8F8F8;
+    padding: 0 20px;
+}
+.container-bottom .heading h3{
+    /* width: 100%; */
+    font-size: 16px;
+    color: #7D8FB3;
+    /* padding: 0 10px;*/
+}
+
+.job-title{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.container-bottom-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.job-title .job-title-left{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 0;
+}
+.job-title .job-title-left p{
+    font-size: 14px;
+    color: #7D8FB3;
+}
+
+
+#textarea-job-title{
+    width: 370px;   
+    height: 30px;
+    border: 2px solid #F8F8F8;
+    padding: 0 10px;   
+    font-size: 14px; 
+    color: #64748B;
+
+}
+#textarea-job-description{
+    width: 370px;   
+    height: 50px;
+    border: 2px solid #F8F8F8;
+    padding: 0 10px 40px 10px;   
+    font-size: 14px;
+    color: #64748B;
+}
+textarea{
+    width: 370px;   
+    height: 80px;
+    border: 2px solid #F8F8F8;
+    padding: 10px 10px 30px 10px;   
+    font-size: 14px;  
+    color: #64748B;
+    font-family: 'Christian Robertson';
+}
+.employement-type{
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ .radio-type{
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #64748B;
+} 
+.employement-type input{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #F8F8F8;
+    
+}
+input[type="checkbox" i]{
+    border: 1px solid #F8F8F8;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    /*  */
+    color: #64748B !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: 1px solid #F8F8F8 !important;
+}
+.css-qfz70r-MuiFormGroup-root{
+    width: 387px !important;
+    border: 1px solid #F8F8F8 !important;
+    display: flex !important;
+    gap: 20px !important;
+    padding: 0 0px 0 10px !important;
+    color: #64748B !important;
+}
+
+.address-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.address{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.address h4{
+    color: #64748B;
+}
+#address-placeholder{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #F8F8F8;
+    color: #64748B;
+    text-align: center;
+}
+.skill-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.skill-right h6{
+    width: 70px;
+    height: 40px;
+    border: 1px solid none;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skill-placeholder{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #F8F8F8;
+    padding: 0 10px;
+}
+.skill-button{
+    width: 130px;
+    font-size: 16px;
+    
+}
+.skill-button-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

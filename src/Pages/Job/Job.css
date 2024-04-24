@@ -1,0 +1,187 @@
+.job-container{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #DADCE0;
+    flex-direction: column;
+    /* padding: 10px 10px; */
+    padding-left: 2px;
+}
+.job-container-main{
+    margin-right: 20px;
+}
+.job-main{
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-size: 16px;
+}
+/* .active{
+    border-bottom: 3px solid #E76A00;
+} */
+.container-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* gap: 50px; */
+    font-size: 16px;
+    padding-right: 10px;
+
+}
+.container-top-left{
+     width: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.container-top-right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    gap: 20px; 
+   
+}
+.all{
+    color: #E76A00;
+}
+button{
+    background-color: #E76A00;
+    color: white;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+.span{
+    color: #7D8FB3;
+}
+.job-card{
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    /* border: 1px solid none; */
+}
+.job-card p{
+    font-size: 10px;
+}
+.job-card h6{
+    font-size: 14px;
+}
+.job-card .images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 10px;
+}
+.job-card .images span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.job-card .buttons{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.buttons .button-one{
+    width: 120px;
+    background-color: #E76A00;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.buttons .button-two{
+    width: 120px;
+    background-color: #FFFFFF;
+    border: 1px solid #E76A00;
+    color: #E76A00;
+    border-radius: 5px;
+}
+.job-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #E76A00 !important;
+}
+.MuiTabs-indicator{
+    background-color: #E76A00 !important;
+}
+.css-13xfq8m-MuiTabPanel-root {
+    padding: 20px 4px !important;
+}
+
+/* new card  */
+
+.conatiner{
+    width: 100%;
+}
+.jobs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.job{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+}
+.job p{
+    font-size: 10px;
+    line-height: 15px;
+}
+.job h2{
+    font-size: 16px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.info-b{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 44px;
+}
+.info-card{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+.info-card span{
+    font-size: 10px;
+}
+.job .buttons{
+    display: flex;
+    gap: 10px;
+}
+.job-header-main{
+    background-color: white;
+    width: 100%;
+}

@@ -1,0 +1,73 @@
+.candidates-container{
+    width: 100%;
+    background-color: #DADCE0;
+    padding-left: 2px;
+}
+.candidate-container-main{
+    margin-right: 20px;
+}
+.candidates-container-header{
+    background-color: white;
+}
+.candidate-main{
+    display: flex;
+    flex-direction: column;
+}
+h6{
+    font-size: 16px;
+}
+/* .active{
+    border-bottom: 3px solid #E76A00;
+} */
+.container-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 16px;
+    padding-right: 10px;
+
+}
+.container-top-left{
+     width: 35% !important; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.container-top-right{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    gap: 20px; 
+    padding: 0px 20px;
+   
+}
+.MuiTabPanel-root{
+    width: 100%;
+}
+
+/* .Candidates-container-main{
+    background-color: #d5d6d8 !important;
+} */
+.header-button img {
+    background-color: transparent;
+    position: absolute;
+    top: 8px;
+    left: 179px;
+}
+.candidates-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 29px;
+}
+.container-bottom{
+    padding: 0px 20px 0px 10px;
+}

@@ -1,0 +1,119 @@
+.profile-container{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+.profile-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.profile-bottom{
+    border: 1px solid #F2F3F5;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+}
+.profile-bottom .line{
+    /* width: 1px; */
+    height: auto;
+    border: 1px solid #F2F3F5;
+    margin: 20px;
+}
+.profile-bottom-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #64748B;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 0px;
+}
+.details-line{
+    display: flex;
+    flex-direction: column;
+    color: #64748B;
+  
+}
+.details-line h6{
+    color: black;
+}
+.side-line{
+    width: 0.1px;
+    height: 100px;
+    border: 1px solid #F2F3F5;
+   margin: 0 18px;
+}
+.details-text-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 0px;
+    gap: 30px;
+}
+.circle-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+    gap: 20px;
+}
+.details-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.box{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #F2F3F5;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.profile-bottom-right{
+    width: 50%;
+    color: #64748B;
+    font-size: 14px;
+}
+.profile-bottom-right h4{
+    color: black;
+}
+.companydetails-boxs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px   ;
+}
+.save{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 50px ;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

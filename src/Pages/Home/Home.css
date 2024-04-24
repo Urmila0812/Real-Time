@@ -1,0 +1,93 @@
+.company-container{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.header-button{
+    display: flex;
+    border: 1 solid #b0b1b3;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .header-button input {
+      border: 1px solid #F2F3F5;
+      height: 30px;
+      width: 200px;
+      position: relative;
+    }
+    .header-button img{
+      background-color: transparent;
+      position: absolute;
+      right: 7px;
+      top: 9px !important;
+    }
+    .companyprofile-header{
+        display: flex;
+        justify-content: space-between;    
+        width: 100%;
+        padding: 0px 17px;
+        background-color: #ffffff;
+        border: 1px solid #F2F3F5;
+    }
+    .companyprofile-header-left{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .companyprofile-header-right{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 150px;
+        padding: 0px 10px;
+    }
+    .companyprofile-header-right img{
+      padding-right: 35px;
+    }
+    .companyprofile-bottom{
+        background-color: #ffffff;
+        border: 1px solid #F2F3F5;
+        border-radius: 5px;
+        padding: 20px 20px;
+        color: #7D8FB3;
+        ;
+    }
+    .companydetails{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .companydetails p{
+        font-size: 14px;
+    }
+    .companydetails h2{
+        color: black;
+        font-size: 16px;
+    }
+    .companydetails-text-down{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .companydetails-text-down-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .companydetails-text-down-right{
+        width: 40%;
+    }
+    .companydetails-text-down span{
+        font-size: 14px;
+        font-weight: 400;
+    }
